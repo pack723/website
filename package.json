@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "pack723",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The homepage for Pack723 of Greensboro, NC",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lamont Taylor <mlamont8@gmail.com>",
   "dependencies": {
     "gatsby": "^2.17.6",
     "gatsby-image": "^2.2.30",
@@ -22,7 +22,7 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "cubscouts pack723"
   ],
   "license": "MIT",
   "scripts": {
