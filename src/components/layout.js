@@ -14,6 +14,7 @@ import Header from "./header"
 // import "./layout.css"
 import "../styles/global.scss"
 import Nav from "./nav"
+import Footer from "./footer"
 
 const Layout = props => {
   // const data = useStaticQuery(graphql`
@@ -36,6 +37,7 @@ const Layout = props => {
       /> */}
       <Nav />
       <main>{props.children}</main>
+      <Footer />
     </>
   )
 }
