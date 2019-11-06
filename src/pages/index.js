@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Fade from "react-reveal/Fade"
 import ImageHeader from "../components/imageHeader"
 import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 const IndexPage = ({ data }) => {
   return (
@@ -35,14 +36,16 @@ const IndexPage = ({ data }) => {
           <div
             className="column is-paddingless"
             style={{ display: `flex`, alignItems: "center" }}
+            data-sal="fade"
+            data-sal-delay="1000"
+            data-sal-easing="ease"
+            data-sal-duration="1000"
           >
-            {/* <Fade left> */}
             <Img
               fluid={data.ship.childImageSharp.fluid}
               alt="Woodfield Pirate Ship"
               style={{ width: "60%", height: "auto" }}
             />
-            {/* </Fade> */}
           </div>
         </div>
       </section>
@@ -56,21 +59,15 @@ const IndexPage = ({ data }) => {
               alignItems: "center",
               justifyContent: "flex-end",
             }}
+            data-sal="fade"
+            data-sal-easing="ease"
+            data-sal-duration="1000"
           >
-            {/* <figure style={{ display: "flex", justifyContent: "flex-end" }}> */}
-            {/* <Fade delay={500}> */}
-            {/* <img
-                  className="column-image"
-                  style={{ width: "60%", height: "auto" }}
-                  src="/images/front-images/sub.jpg"
-                /> */}
             <Img
               fluid={data.sub.childImageSharp.fluid}
               alt="Scouts visit the USS Clamagore"
               style={{ width: "60%", height: "auto" }}
             />
-
-            {/* </Fade> */}
           </div>
           <div className="column is-paddingless">
             <div className="has-text-centered rightInnerColumn has-background-black">
@@ -136,16 +133,10 @@ const IndexPage = ({ data }) => {
             </ul>
           </content>
           <div className="b grid-item">
-            <Fade>
-              {/* <figure className="image is-5by4"> */}
-              {/* <img src="/images/front-images/front1.jpg" /> */}
-
-              <Img
-                fluid={data.campfire.childImageSharp.fluid}
-                alt="Campfire at the fall family campout"
-              />
-              {/* </figure> */}
-            </Fade>
+            <Img
+              fluid={data.campfire.childImageSharp.fluid}
+              alt="Campfire at the fall family campout"
+            />
           </div>
           <content className="c content grid-item">
             <ul>
@@ -161,13 +152,10 @@ const IndexPage = ({ data }) => {
             </ul>
           </content>
           <div className="d grid-item">
-            {/* <figure className="image is-5by4"> */}
-            {/* <img src="/images/front-images/front2.jpg" /> */}
             <Img
               fluid={data.crafts.childImageSharp.fluid}
               alt="Scouts activities include crafts and art"
             />
-            {/* </figure> */}
           </div>
           <content className="e content grid-item">
             <ul>
@@ -183,14 +171,10 @@ const IndexPage = ({ data }) => {
             </ul>
           </content>
           <div className="f grid-item">
-            {/* <figure className="image is-5by4"> */}
-            {/* <img src="/images/front-images/front3.jpg" /> */}
-
             <Img
               fluid={data.trailer.childImageSharp.fluid}
               alt="Bethel Cub Scouts Pack 723 on an activity"
             />
-            {/* </figure> */}
           </div>
           <content className="g content grid-item">
             <ul>
@@ -206,16 +190,11 @@ const IndexPage = ({ data }) => {
             </ul>
           </content>
           <div className="h grid-item">
-            {/* <figure className="image is-5by4"> */}
-            {/* <img src="/images/woodfield/campfire.jpg" /> */}
-
             <Img
               fluid={data.walking.childImageSharp.fluid}
               alt="Scouts walking on a camping trip"
             />
-            {/* </figure> */}
           </div>
-          {/* </div> */}
         </div>
       </section>
 
@@ -226,17 +205,10 @@ const IndexPage = ({ data }) => {
 
             <div className="columns">
               <div className="column is-one-third">
-                {/* <figure className="image is-5by4 image-oath"> */}
-                {/* <img
-                  src="/images/woodfield/pledge.jpg"
-                  style={{ borderRadius: "5px" }}
-                /> */}
-
                 <Img
                   fluid={data.pledge.childImageSharp.fluid}
                   alt="Scouts on the USS Yorktown"
                 />
-                {/* </figure> */}
               </div>
               <div className="column oath">
                 <Fade bottom delay={1000}>
