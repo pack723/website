@@ -18,7 +18,7 @@ const Nav = () => {
 
   return (
     <nav
-      className="navbar is-fixed-top is-primary"
+      className="navbar is-primary is-fixed-top"
       role="navigation"
       aria-label="main navigation"
     >

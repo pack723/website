@@ -13,6 +13,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 // import "./layout.css"
 import "../styles/global.scss"
+import Nav from "./nav"
 
 const Layout = props => {
   // const data = useStaticQuery(graphql`
@@ -33,7 +34,7 @@ const Layout = props => {
         size={props.size}
         imageUrl={props.imageUrl}
       /> */}
-
+      <Nav />
       <main>{props.children}</main>
     </>
   )

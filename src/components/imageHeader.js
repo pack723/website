@@ -33,9 +33,7 @@ const BackgroundSection = ({ className }) => (
             backgroundSize: "cover",
           }}
         >
-          <div className="hero-head">
-            <Nav />
-          </div>
+          <div className="hero-head"></div>
           <div className="hero-body">
             <div className="container"></div>
           </div>

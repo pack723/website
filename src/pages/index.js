@@ -8,7 +8,7 @@ import { graphql } from "gatsby"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <ImageHeader className="hero is-medium" />
+      <ImageHeader className="hero is-large" />
       <section>
         <div className="columns">
           <div className="column is-paddingless">
