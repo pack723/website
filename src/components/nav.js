@@ -49,10 +49,10 @@ const Nav = () => {
           </Link>
         </div>
 
-        {/* <div className="navbar-end">
-          {/* <Link to="/blog">
+        <div className="navbar-end">
+          <Link to="/blog">
             <a className="navbar-item menu-link">Blog</a>
-          </Link> 
+          </Link>
 
           <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link">Current</a>
@@ -76,14 +76,14 @@ const Nav = () => {
               <Link to="/faq">
                 <a className="navbar-item">FAQ</a>
               </Link>
-              {/* <hr className="navbar-divider" />
+              <hr className="navbar-divider" />
               <Link to="/join">
                 <a className="navbar-item">Join Us</a>
-              </Link> */}
-      </div>
-      {/* </div> 
+              </Link>
+            </div>
+          </div>
         </div>
-      </div> */}
+      </div>
     </nav>
   )
 }
