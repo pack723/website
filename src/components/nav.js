@@ -1,20 +1,20 @@
 import React, { useState } from "react"
-// import { useScrollPosition } from "@n8tb1t/use-scroll-position";
+// import { useScrollPosition } from "@n8tb1t/use-scroll-position"
 import { Link } from "gatsby"
 import cubScouts from "../images/cubScouts.gif"
 
 const Nav = () => {
   const [menuToggle, setMenuToggle] = useState(false)
-  //   const [isTop, setPageTop] = useState(false)
+  // const [isTop, setPageTop] = useState(false)
 
   const onClick = () => setMenuToggle(!menuToggle)
 
-  //   useScrollPosition(
-  //     ({ prevPos, currPos }) => {
-  //       currPos.y === 0 ? setPageTop(true) : setPageTop(false)
-  //     },
-  //     [isTop]
-  //   )
+  // useScrollPosition(
+  //   ({ prevPos, currPos }) => {
+  //     currPos.y === 0 ? setPageTop(true) : setPageTop(false)
+  //   },
+  //   [isTop]
+  // )
 
   return (
     <nav

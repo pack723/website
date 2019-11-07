@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Lamont Taylor <mlamont8@gmail.com>",
   "dependencies": {
+    "@n8tb1t/use-scroll-position": "^1.0.40",
     "bulma": "^0.8.0",
     "gatsby": "^2.17.6",
     "gatsby-background-image": "^0.8.17",
