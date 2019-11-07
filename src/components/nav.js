@@ -65,9 +65,9 @@ const Nav = () => {
               <Link to="/about">
                 <a className="navbar-item">About</a>
               </Link>
-              <Link to="/ranks">
+              {/* <Link to="/ranks">
                 <a className="navbar-item">Ranks</a>
-              </Link>
+              </Link> */}
               <Link to="/faq">
                 <a className="navbar-item">FAQ</a>
               </Link>
