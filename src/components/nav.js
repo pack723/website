@@ -23,9 +23,11 @@ const Nav = () => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a className="navbar-item">
-          <img src={cubScouts} alt="" />
-        </a>
+        <Link to="/">
+          <a className="navbar-item">
+            <img src={cubScouts} alt="" />
+          </a>
+        </Link>
         <a
           role="button"
           className={`navbar-burger burger ${menuToggle ? "is-active" : ""}`}

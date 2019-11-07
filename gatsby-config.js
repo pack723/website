@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Cub Scout Pack 723`,
     description: `Bethel Cub scout Pack 723 of Greensboro, NC`,
-    author: `@mlamont8`,
+    author: `M Lamont Taylor`,
   },
   plugins: [
     `gatsby-plugin-scroll-reveal`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Greensboro Cub Scout Pack 723`,
+        short_name: `Pack723`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -31,6 +31,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

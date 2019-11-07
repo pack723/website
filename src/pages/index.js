@@ -4,10 +4,12 @@ import Fade from "react-reveal/Fade"
 import ImageHeader from "../components/imageHeader"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
+import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
+      <SEO />
       <ImageHeader className="hero is-medium" />
 
       <section class="section mission" style={{ padding: "5rem 1.5rem" }}>

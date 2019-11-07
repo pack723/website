@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import Map from "../components/map"
+import SEO from "../components/seo"
 
 const Join = () => (
   <Layout>
+    <SEO title="Joining Pack723" />
     <div className="join-container">
       <section className="hero is-primary">
         <div className="hero-body">
@@ -52,7 +54,7 @@ const Join = () => (
         </div>
       </section>
 
-      <section>
+      <section className="section">
         <div className="container">
           <h1 className="title">Registration</h1>
           <p>
@@ -81,7 +83,7 @@ const Join = () => (
         </div>
       </section>
 
-      <section>
+      <section className="section">
         <div className="container">
           <h1 className="title">Uniforms</h1>
           <p>
