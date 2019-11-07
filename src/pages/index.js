@@ -9,6 +9,23 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <ImageHeader className="hero is-large" />
+
+      <section class="section mission" style={{ padding: "5rem 1.5rem" }}>
+        <div class="container">
+          <h2
+            class="subtitle is-size-3"
+            style={{
+              borderLeft: "solid",
+              borderColor: "#003f99",
+              paddingLeft: "15px",
+            }}
+          >
+            ...to prepare young people to make ethical and moral choices over
+            their lifetimes by instilling in them the values of the Scout Oath
+            and Law.
+          </h2>
+        </div>
+      </section>
       <section>
         <div className="columns">
           <div className="column is-paddingless">
