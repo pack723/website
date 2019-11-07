@@ -22,15 +22,16 @@ const Nav = () => {
       role="navigation"
       aria-label="main navigation"
     >
-      <div className="navbar-item">
-        <img src={cubScouts} alt="" />
-
+      <div className="navbar-brand">
+        <a className="navbar-item">
+          <img src={cubScouts} alt="" />
+        </a>
         <a
           role="button"
           className={`navbar-burger burger ${menuToggle ? "is-active" : ""}`}
           aria-label="menu"
           aria-expanded="false"
-          data-target="navbarBasicExample"
+          data-target="navbarButton"
           onClick={onClick}
         >
           <span aria-hidden="true"></span>
@@ -40,19 +41,13 @@ const Nav = () => {
       </div>
 
       <div
-        id="navbarBasicExample"
+        id="navbarButton"
         className={`navbar-menu ${menuToggle ? "is-active" : ""}`}
       >
-        <div className="navbar-start">
-          <Link to="/">
-            <a className="navbar-item menu-link">Pack 723</a>
-          </Link>
-        </div>
-
         <div className="navbar-end">
-          <Link to="/blog">
+          {/* <Link to="/blog">
             <a className="navbar-item menu-link">Blog</a>
-          </Link>
+          </Link> */}
 
           <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link">Current</a>

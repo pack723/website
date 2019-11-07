@@ -26,7 +26,6 @@ const BackgroundSection = ({ className }) => (
           Tag="section"
           className={className}
           fluid={imageData}
-          backgroundColor={`#040e18`}
           style={{
             width: "100%",
             backgroundPosition: "center",
@@ -35,7 +34,23 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="hero-head"></div>
           <div className="hero-body">
-            <div className="container"></div>
+            <div className="container">
+              <div className="columns is-mobile">
+                <div
+                  className="column has-background-grey-lighter"
+                  style={{ opacity: ".8", borderRadius: "30px" }}
+                >
+                  <h1 className="title  has-text-primary is-size-3">
+                    BETHEL PACK 723
+                  </h1>
+                  <h2 className="subtitle has-text-primary is-size-6">
+                    Greensboro, NC
+                  </h2>
+                </div>
+                <div className="column"></div>
+              </div>
+              <div />
+            </div>
           </div>
         </BackgroundImage>
       )

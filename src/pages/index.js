@@ -8,7 +8,7 @@ import { graphql } from "gatsby"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <ImageHeader className="hero is-large" />
+      <ImageHeader className="hero is-medium" />
 
       <section class="section mission" style={{ padding: "5rem 1.5rem" }}>
         <div class="container">
