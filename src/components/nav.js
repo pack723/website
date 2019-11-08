@@ -24,9 +24,9 @@ const Nav = () => {
     >
       <div className="navbar-brand">
         <Link to="/">
-          <a className="navbar-item">
+          <div className="navbar-item">
             <img src={cubScouts} alt="" />
-          </a>
+          </div>
         </Link>
         <a
           role="button"
