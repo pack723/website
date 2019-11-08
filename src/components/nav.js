@@ -28,7 +28,7 @@ const Nav = () => {
             <img src={cubScouts} alt="" />
           </div>
         </Link>
-        <a
+        <div
           role="button"
           className={`navbar-burger burger ${menuToggle ? "is-active" : ""}`}
           aria-label="menu"
@@ -39,7 +39,7 @@ const Nav = () => {
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </div>
       </div>
 
       <div
@@ -56,26 +56,26 @@ const Nav = () => {
 
             <div className="navbar-dropdown">
               <Link to="/calendar">
-                <a className="navbar-item">Calendar</a>
+                <div className="navbar-item">Calendar</div>
               </Link>
             </div>
           </div>
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Prospective</a>
+            <div className="navbar-link">Prospective</div>
 
             <div className="navbar-dropdown">
               <Link to="/about">
-                <a className="navbar-item">About</a>
+                <div className="navbar-item">About</div>
               </Link>
               {/* <Link to="/ranks">
                 <a className="navbar-item">Ranks</a>
               </Link> */}
               <Link to="/faq">
-                <a className="navbar-item">FAQ</a>
+                <div className="navbar-item">FAQ</div>
               </Link>
               <hr className="navbar-divider" />
               <Link to="/join">
-                <a className="navbar-item">Join Us</a>
+                <div className="navbar-item">Join Us</div>
               </Link>
             </div>
           </div>

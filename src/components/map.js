@@ -24,15 +24,6 @@ const Map = () => (
     >
       <Marker lat={36.072263} lng={-79.780294} text="Bethel AME Church" />
     </GoogleMapReact>
-
-    <style jsx>
-      {`
-        .map-container {
-          width: 300px;
-          height: 200px;
-        }
-      `}
-    </style>
   </div>
 )
 

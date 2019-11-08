@@ -9,13 +9,13 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO />
+      <SEO title="Cub Scout Pack 723" />
       <ImageHeader className="hero is-medium" />
 
-      <section class="section mission" style={{ padding: "5rem 1.5rem" }}>
-        <div class="container">
+      <section className="section mission" style={{ padding: "5rem 1.5rem" }}>
+        <div className="container">
           <h2
-            class="subtitle is-size-3"
+            className="subtitle is-size-3"
             style={{
               borderLeft: "solid",
               borderColor: "#003f99",
