@@ -49,6 +49,10 @@ $input-shadow: none;
     }
 }
 
+.title {
+    word-break: normal;
+}
+
 // partials
 
 @import "./index.scss";

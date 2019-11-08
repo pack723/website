@@ -27,6 +27,7 @@ const BackgroundSection = ({ className }) => (
             width: "100%",
             backgroundPosition: "center",
             backgroundSize: "cover",
+            paddingTop: "100px",
           }}
         >
           <div className="hero-head"></div>
@@ -37,7 +38,7 @@ const BackgroundSection = ({ className }) => (
                   className="column has-background-grey-lighter"
                   style={{ opacity: ".8", borderRadius: "30px" }}
                 >
-                  <h1 className="title  has-text-primary is-size-3">
+                  <h1 className="title  has-text-primary is-size-2-desktop">
                     BETHEL PACK 723
                   </h1>
                   <h2 className="subtitle has-text-primary is-size-6">
