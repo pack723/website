@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => {
           </h2>
         </div>
       </section>
-      <section>
+      <section className="intro">
         <div className="columns">
           <div className="column is-paddingless">
             <div className="has-text-centered  leftInnerColumn has-background-black">
@@ -53,7 +53,7 @@ const IndexPage = ({ data }) => {
             </div>
           </div>
           <div
-            className="column is-paddingless"
+            className="column is-paddingless intro-image-container"
             style={{ display: `flex`, alignItems: "center" }}
             data-sal="fade"
             data-sal-easing="ease"
@@ -61,37 +61,33 @@ const IndexPage = ({ data }) => {
           >
             <Img
               fluid={data.trailer.childImageSharp.fluid}
+              className="intro-image"
               alt="Pack 723 on an activity"
-              style={{ width: "60%", height: "auto" }}
             />
           </div>
         </div>
       </section>
 
-      <section>
+      <section className="intro">
         <div className="columns columns-alt">
           <div
-            className="column is-paddingless"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "flex-end",
-            }}
+            className="column is-paddingless intro-image-container"
+            id="intro-left-image-container"
             data-sal="fade"
             data-sal-easing="ease"
             data-sal-duration="500"
           >
             <Img
               fluid={data.sub.childImageSharp.fluid}
+              className="intro-image"
               alt="Scouts visit the USS Clamagore"
-              style={{ width: "60%", height: "auto" }}
             />
           </div>
           <div className="column is-paddingless">
             <div className="has-text-centered rightInnerColumn has-background-black">
               <h1 className="title has-text-warning">What is Scouting?</h1>
               <p>
-                Scouting complements the school and the family, filling needs
+                Scouting compliments the school and the family, filling needs
                 when necessary. Scouting develops self-knowledge and the need to
                 explore, to discover, and to want to know. Scouts discover the
                 world beyond the classroom, tapping the skills of others to
