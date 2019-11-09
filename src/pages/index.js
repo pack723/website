@@ -60,8 +60,8 @@ const IndexPage = ({ data }) => {
             data-sal-duration="1000"
           >
             <Img
-              fluid={data.ship.childImageSharp.fluid}
-              alt="Woodfield Pirate Ship"
+              fluid={data.trailer.childImageSharp.fluid}
+              alt="Pack 723 on an activity"
               style={{ width: "60%", height: "auto" }}
             />
           </div>
@@ -190,8 +190,8 @@ const IndexPage = ({ data }) => {
           </content>
           <div className="f grid-item">
             <Img
-              fluid={data.trailer.childImageSharp.fluid}
-              alt="Bethel Cub Scouts Pack 723 on an activity"
+              fluid={data.ship.childImageSharp.fluid}
+              alt="Fall family campout 2019"
             />
           </div>
           <content className="g content grid-item">
@@ -230,11 +230,11 @@ const IndexPage = ({ data }) => {
               </div>
               <div className="column oath">
                 <Fade bottom delay={1000}>
-                  <p>
-                    On my honor I will do my best To do my duty to God and my
+                  <p className="is-size-4">
+                    "On my honor I will do my best; To do my duty to God and my
                     country and to obey the Scout Law; To help other people at
                     all times; To keep myself physically strong, mentally awake,
-                    and morally straight.
+                    and morally straight."
                   </p>
                 </Fade>
               </div>
