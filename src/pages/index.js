@@ -56,7 +56,6 @@ const IndexPage = ({ data }) => {
             className="column is-paddingless"
             style={{ display: `flex`, alignItems: "center" }}
             data-sal="fade"
-            data-sal-delay="1000"
             data-sal-easing="ease"
             data-sal-duration="1000"
           >
@@ -80,7 +79,7 @@ const IndexPage = ({ data }) => {
             }}
             data-sal="fade"
             data-sal-easing="ease"
-            data-sal-duration="1000"
+            data-sal-duration="500"
           >
             <Img
               fluid={data.sub.childImageSharp.fluid}

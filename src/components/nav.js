@@ -1,24 +1,15 @@
 import React, { useState } from "react"
-// import { useScrollPosition } from "@n8tb1t/use-scroll-position"
 import { Link } from "gatsby"
 import cubScouts from "../images/cubScouts.gif"
 
 const Nav = () => {
   const [menuToggle, setMenuToggle] = useState(false)
-  // const [isTop, setPageTop] = useState(false)
 
   const onClick = () => setMenuToggle(!menuToggle)
 
-  // useScrollPosition(
-  //   ({ prevPos, currPos }) => {
-  //     currPos.y === 0 ? setPageTop(true) : setPageTop(false)
-  //   },
-  //   [isTop]
-  // )
-
   return (
     <nav
-      className="navbar is-primary is-fixed-top"
+      className="navbar is-fixed-top is-primary"
       role="navigation"
       aria-label="main navigation"
     >
@@ -67,9 +58,9 @@ const Nav = () => {
               <Link to="/about">
                 <div className="navbar-item">About</div>
               </Link>
-              {/* <Link to="/ranks">
-                <a className="navbar-item">Ranks</a>
-              </Link> */}
+              <Link to="/ranks">
+                <div className="navbar-item">Ranks</div>
+              </Link>
               <Link to="/faq">
                 <div className="navbar-item">FAQ</div>
               </Link>
