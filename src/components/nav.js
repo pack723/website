@@ -43,7 +43,7 @@ const Nav = () => {
           </Link> */}
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Current</a>
+            <div className="navbar-link">Current</div>
 
             <div className="navbar-dropdown">
               <Link to="/calendar">

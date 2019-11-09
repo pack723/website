@@ -29,8 +29,26 @@ const Join = () => (
 
       <section className="section">
         <div className="container">
-          <h1 className="title">Map</h1>
+          <h1 className="title">Bethel AME Church - Greensboro, NC</h1>
+          <h2 className="subtitle">200 N Regan St.</h2>
+
           <Map />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <figure className="image is-16by9">
+            <iframe
+              className="has-ratio"
+              width="500"
+              height="300"
+              src="https://www.youtube.com/embed/skSD7y6fgB4?showinfo=0"
+              frameborder="0"
+              allowfullscreen
+              title="About Cub Scouting"
+            ></iframe>
+          </figure>
         </div>
       </section>
 
@@ -58,19 +76,14 @@ const Join = () => (
         <div className="container">
           <h1 className="title">Registration</h1>
           <p>
-            When you are ready for your child to register, please fill out the
-            following youth application and bring a check for the annual dues
-            described below.
+            When you are ready for your child to register, let our cub master
+            know. We will insruct you on the application process and where to go
+            from there.
           </p>
-          <ul>
-            <li>
-              <a href="#">Online Registration Form</a>
-            </li>
-          </ul>
 
           <p>
-            To register as an adult leader , please use the following
-            application:
+            If you are considering registering as an adult leader , please use
+            the following application:
           </p>
 
           <ul>
@@ -80,6 +93,15 @@ const Join = () => (
               </a>
             </li>
           </ul>
+
+          <p>
+            Every volunteer leader is required to go through a rigorous
+            background check and Youth Protection Training process that ensures
+            your child will be in a safe and fun program. The Old North State
+            Council provides many training opportunities for our leaders to
+            enhance the program they deliver, and increase the skills they can
+            pass onto our Scouts.
+          </p>
         </div>
       </section>
 
@@ -87,11 +109,11 @@ const Join = () => (
         <div className="container">
           <h1 className="title">Uniforms</h1>
           <p>
-            Cub Scouts are required to purchase a className “A” uniform
-            (official blue shirt and insignia) to be worn at official activities
-            and some meetings. Uniforms, manuals and other items can be
-            purchased at the Old North State Council Boy Scout office. You can
-            find more information about the Cub Scout uniform{" "}
+            Cub Scouts are required to purchase a class “A” uniform (official
+            blue shirt and insignia) to be worn at official activities and some
+            meetings. Uniforms, manuals and other items can be purchased at the
+            Old North State Council Boy Scout office. You can find more
+            information about the Cub Scout uniform{" "}
             <a href="http://www.scouting.org/scoutsource/CubScouts/Uniform/cubscout.aspx">
               here
             </a>
