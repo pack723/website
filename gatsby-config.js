@@ -23,8 +23,8 @@ module.exports = {
         name: `Greensboro Cub Scout Pack 723`,
         short_name: `Pack723`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#003f99`,
+        theme_color: `#003f99`,
         display: `minimal-ui`,
         icon: `src/images/pack723.png`, // This path is relative to the root of the site.
       },
