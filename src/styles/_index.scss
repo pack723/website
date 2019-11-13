@@ -61,24 +61,7 @@ ul>li {
     border-radius: 5px;
 }
 
-@media (max-width: 620px) {
-    .grid-item {
-        flex: 0 1 100%;
-    }
 
-    .intro-image-container {
-        align-items: center;
-        justify-content: center;
-    }
-
-    #intro-left-image {
-        justify-content: center;
-    }
-
-    .intro-image {
-        width: 100%;
-    }
-}
 
 @media (max-width: 1000px) {
     .grid-item {
@@ -105,4 +88,23 @@ ul>li {
 .frontGrid div {
     flex: 1 0 25%;
     height: 250px;
+}
+
+@media (max-width: 620px) {
+    .grid-item {
+        flex: 0 1 100%;
+    }
+
+    .intro-image-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #intro-left-image {
+        justify-content: center;
+    }
+
+    .intro-image {
+        width: 100%;
+    }
 }
