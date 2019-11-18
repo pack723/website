@@ -2,3 +2,5 @@
 
 Bethel Cub Scout Pack 723
 Greensboro, NC
+
+pack723.com
