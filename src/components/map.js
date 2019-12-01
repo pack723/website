@@ -18,7 +18,7 @@ const Marker = props => {
 const Map = () => (
   <div className="map-container">
     <GoogleMapReact
-      bootstrapURLKeys={{ key: "AIzaSyApIiQVnp3nLgGwqBAg1Motx6D0bKCavlE" }}
+      bootstrapURLKeys={{ key: `${process.env.MAP_APIKEY}` }}
       defaultCenter={{ lat: 36.072263, lng: -79.780294 }}
       defaultZoom={17}
     >
