@@ -32,7 +32,7 @@ const Join = () => (
           <h1 className="title">Bethel AME Church - Greensboro, NC</h1>
           <h2 className="subtitle">200 N Regan St.</h2>
 
-          {/* <Map /> */}
+          <Map />
         </div>
       </section>
 
