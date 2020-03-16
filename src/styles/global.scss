@@ -1,22 +1,20 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Almarai:400,700');
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Almarai:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
 
 // Set your brand colors
-$purple: #8A4D76;
+$purple: #8a4d76;
 $blue: #003f99;
-$pink: #FA7C91;
+$pink: #fa7c91;
 $brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
 
 // Update Bulma's global variables
-$family-sans-serif: "Almarai",
-sans-serif;
-$family-secondary: "Lora",
-serif;
+$family-sans-serif: "Almarai", sans-serif;
+$family-secondary: "Lora", serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $blue;
@@ -35,6 +33,7 @@ $input-shadow: none;
 @import "./node_modules/bulma/sass/base/_all.sass";
 @import "./node_modules/bulma/sass/elements/_all.sass";
 @import "./node_modules/bulma/sass/components/navbar.sass";
+@import "./node_modules/bulma/sass/components/modal.sass";
 @import "./node_modules/bulma/sass/layout/footer.sass";
 @import "./node_modules/bulma/sass/layout/hero.sass";
 @import "./node_modules/bulma/sass/layout/section.sass";
@@ -43,14 +42,14 @@ $input-shadow: none;
 // Custom sass extensions
 
 .navbar {
-    &.is-transparent {
-        background-color: transparent;
-        background-image: none;
-    }
+  &.is-transparent {
+    background-color: transparent;
+    background-image: none;
+  }
 }
 
 .title {
-    word-break: normal;
+  word-break: normal;
 }
 
 // partials

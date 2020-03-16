@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import Layout from "../components/layout"
 import Fade from "react-reveal/Fade"
 import ImageHeader from "../components/imageHeader"
@@ -7,6 +7,14 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => {
+  const [modal, setModal] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setModal(true)
+    }, 2000)
+  }, [])
+
   return (
     <Layout>
       <SEO title="Cub Scout Pack 723" />
@@ -24,7 +32,7 @@ const IndexPage = ({ data }) => {
           >
             ...to prepare young people to make ethical and moral choices over
             their lifetimes by instilling in them the values of the Scout Oath
-            and Law.
+            and Law.{" "}
           </h2>
         </div>
       </section>
@@ -238,6 +246,42 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
       </section>
+
+      <div className={`modal ${modal ? "is-active" : ""}`}>
+        <div className="modal-background" onClick={() => setModal(false)}></div>
+
+        <div className="modal-card">
+          <header className="modal-card-head has-background-primary is-primary">
+            <p className="modal-card-title has-text-white">
+              Important Announcement
+            </p>
+            <button
+              className="delete"
+              aria-label="close"
+              onClick={() => setModal(false)}
+            ></button>
+          </header>
+          <section className="modal-card-body has-text-black has-text-centered">
+            <p>
+              As always, we keep safety as a top concern for our pack, parents
+              and visitors.
+            </p>
+            <p>
+              We are following Local, State and Federal Guidelines and NOT
+              having meetings on March 16th and March 23.
+            </p>
+            <p>We will continue to update in the days to come.</p>
+          </section>
+          <footer className="modal-card-foot">
+            <div>
+              <p className="has-text-black has-text-weight-bold">
+                <p>Sincerely,</p>
+                <p>Pack Leadership</p>
+              </p>
+            </div>
+          </footer>
+        </div>
+      </div>
     </Layout>
   )
 }
