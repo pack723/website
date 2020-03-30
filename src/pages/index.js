@@ -266,17 +266,14 @@ const IndexPage = ({ data }) => {
               As always, we keep safety as a top concern for our pack, parents
               and visitors.
             </p>
-            <p>
-              We are following Local, State and Federal Guidelines and NOT
-              having meetings on March 16th and March 23.
-            </p>
-            <p>We will continue to update in the days to come.</p>
+            <p>We are NOT having weekly meetings at the current time.</p>
+            <p>Stay home and be safe!</p>
           </section>
           <footer className="modal-card-foot">
             <div>
               <p className="has-text-black has-text-weight-bold">
                 <p>Sincerely,</p>
-                <p>Pack Leadership</p>
+                <p>Pack 723 Leadership</p>
               </p>
             </div>
           </footer>
