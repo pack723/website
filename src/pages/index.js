@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import Layout from "../components/layout"
 import Fade from "react-reveal/Fade"
 import ImageHeader from "../components/imageHeader"
@@ -7,13 +7,6 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => {
-  const [modal, setModal] = useState(false)
-
-  useEffect(() => {
-    setTimeout(() => {
-      setModal(true)
-    }, 2000)
-  }, [])
 
   return (
     <Layout>
@@ -247,38 +240,7 @@ const IndexPage = ({ data }) => {
         </div>
       </section>
 
-      <div className={`modal ${modal ? "is-active" : ""}`}>
-        <div className="modal-background" onClick={() => setModal(false)}></div>
 
-        <div className="modal-card">
-          <header className="modal-card-head has-background-primary is-primary">
-            <p className="modal-card-title has-text-white">
-              Important Announcement
-            </p>
-            <button
-              className="delete"
-              aria-label="close"
-              onClick={() => setModal(false)}
-            ></button>
-          </header>
-          <section className="modal-card-body has-text-black has-text-centered">
-            <p>
-              As always, we keep safety as a top concern for our pack, parents
-              and visitors.
-            </p>
-            <p>We are NOT having weekly meetings at the current time.</p>
-            <p>Stay home and be safe!</p>
-          </section>
-          <footer className="modal-card-foot">
-            <div>
-              <p className="has-text-black has-text-weight-bold">
-                <p>Sincerely,</p>
-                <p>Pack 723 Leadership</p>
-              </p>
-            </div>
-          </footer>
-        </div>
-      </div>
     </Layout>
   )
 }
