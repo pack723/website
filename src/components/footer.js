@@ -6,10 +6,10 @@ const Footer = () => (
     <div className="columns is-vcentered">
       <div className="column">
         <div className="content has-text-centered">
-          <p>
+          {/* <p>
             We invite you to join us on Mondays at 7pm on school nights of
             Guilford County Schools.
-          </p>
+          </p> */}
           <p>
             Bethel AME Church <br />
             200 N Regan St. Greensboro, NC 27401
@@ -23,7 +23,7 @@ const Footer = () => (
       </div>
       <div className="column">
         <div className="content has-text-centered">
-          <p>Cub Master: Chris Sharpless</p>
+          <p>Cub Master: Darryl Quick</p>
         </div>
       </div>
     </div>
