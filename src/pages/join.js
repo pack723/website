@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import Map from "../components/map"
 import SEO from "../components/seo"
 
 const Join = () => (
@@ -32,7 +31,7 @@ const Join = () => (
           <h1 className="title">Bethel AME Church - Greensboro, NC</h1>
           <h2 className="subtitle">200 N Regan St.</h2>
 
-          <Map />
+       
         </div>
       </section>
 

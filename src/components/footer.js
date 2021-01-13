@@ -1,5 +1,5 @@
 import React from "react"
-import Map from "./map"
+
 
 const Footer = () => (
   <footer className="footer has-background-black">
@@ -18,7 +18,7 @@ const Footer = () => (
       </div>
       <div className="column has-text-centered">
         <div className="content is-flex" style={{ justifyContent: "center" }}>
-          <Map />
+         
         </div>
       </div>
       <div className="column">
